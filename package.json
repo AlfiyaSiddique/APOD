@@ -1,0 +1,15 @@
+{
+  "name": "12.-space",
+  "version": "1.0.0",
+  "description": "Basic Application that returns data related to space using remote  API'S",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alfiya Siddique",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); 
+
+/* All Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+/* Classes */
+.navbar {
+    height: 10vh;
+    background-color: rgb(17, 12, 12);
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.page { 
+    width: 100vw;
+    height: 90vh;
+    background: url(homeBG.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .layer{
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    top: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+  }
+
+.content{
+  background-color: rgb(19, 17, 17, 0.8);
+  padding: 20px 40px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+ border-radius: 10%;
+}
+
+/* Selectors */
+button{
+  background-color: rgb(17, 12, 12);
+  color: whitesmoke;
+  padding: 15px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+button:hover{
+  background-color: whitesmoke;
+ cursor: pointer;
+ color: black;
+ transition: .5s;
+}
+
+.content p{
+  width: 20vw;
+}
