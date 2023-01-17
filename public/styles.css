@@ -8,12 +8,12 @@
     overflow-x: hidden;
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 /* Classes */
-.navbar {
+.head {
     height: 10vh;
     background-color: rgb(17, 12, 12);
-    text-align: center;
 }
 
 h1{
@@ -46,7 +46,6 @@ h1{
 .content{
   background-color: rgb(19, 17, 17, 0.8);
   padding: 20px 40px;
-  text-align: center;
   position: relative;
   z-index: 2;
  border-radius: 10%;
@@ -71,5 +70,5 @@ button:hover{
 }
 
 .content p{
-  width: 20vw;
+  width: 40vw;
 }
