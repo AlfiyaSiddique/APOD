@@ -13,8 +13,8 @@ app.get("/", (req, res) => {
 app.get("/api", (req,res)=>{
   const url = `https://api.nasa.gov/planetary/apod?api_key=${process.env.API_KEY}`;
   https.get(url, (response)=>{
-    response.on('data', (d)=>{
-      d = JSON.parse(d)
+    response.on('data', (info)=>{
+      info = JSON.parse(info)
       
     })
   })
